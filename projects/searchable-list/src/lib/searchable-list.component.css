@@ -1,0 +1,33 @@
+.pointer {
+  cursor: pointer;
+}
+
+.highlight {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.multi-box {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  padding: 2px 14px;
+}
+
+.multi-box p {
+  margin-bottom: 0.3rem;
+}
+
+.small {
+  font-size: small;
+}
+
+.hoverable:hover {
+  background-color: rgba(152, 152, 152, 0.12);
+  box-shadow: -1px 0px 5px 0 rgba(0, 0, 0, 0.47);
+}
+
+.overflow {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+}

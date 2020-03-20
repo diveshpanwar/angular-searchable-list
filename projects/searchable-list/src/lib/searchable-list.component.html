@@ -1,0 +1,16 @@
+<div class="col overflow" [ngStyle]="{'height' : height}">
+    <div class="text-center">
+        <mat-form-field appearance="fill" style="width: 100%;">
+            <input matInput placeholder="FILTER" [(ngModel)]="filterKeyword" (keyup)="filterList()">
+        </mat-form-field>
+    </div>
+    <mat-list role="list" dense *ngIf="listType === 'single'">
+        <mat-list-item role="listitem" *ngFor="let item of filteredList" [ngClass]="{'pointer': type === 'action', 'hoverable': hoverable}" class="highlight">{{item}}</mat-list-item>
+    </mat-list>
+    <div *ngIf="listType === 'multi'" style="margin-top: 0.5rem;">
+        <div *ngFor="let item of filteredList" class="multi-box" [ngClass]="{'pointer': type === 'action', 'hoverable': hoverable}">
+            <p style="font-weight: bold;" [ngClass]="{'small': dense === 'dense'}">{{item.name}}</p>
+            <p [ngClass]="{'small': dense === 'dense'}">{{item.value}}</p>
+        </div>
+    </div>
+</div>
