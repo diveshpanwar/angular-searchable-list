@@ -1,6 +1,7 @@
 {
   "name": "angular-searchable-list",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "description": "This library is used to create a list that can be filtered, and can be used with angular material 9 and above",
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",
@@ -8,5 +9,18 @@
   },
   "scripts": {
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diveshpanwar/angular-searchable-list.git"
+  },
+  "contributors": [
+    {
+      "name": "Divesh Panwar",
+      "email": "divesh.panwar@gmail.com",
+      "url": "https://profile.diveshpanwar.website/"
+    }
+  ],
+  "license": "(MIT OR Apache-2.0)",
+  "keywords": ["divesh panwar", "angular-searchable-list", "angular-material-list", "angular list", "list with filter"]
 }
