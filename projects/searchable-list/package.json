@@ -28,5 +28,11 @@
     }
   ],
   "license": "(MIT OR Apache-2.0)",
-  "keywords": ["divesh panwar", "angular-searchable-list", "angular-material-list", "angular list", "list with filter"]
+  "keywords": [
+    "divesh panwar",
+    "angular-searchable-list",
+    "angular-material-list",
+    "angular list",
+    "list with filter"
+  ]
 }
